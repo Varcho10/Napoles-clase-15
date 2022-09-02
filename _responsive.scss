@@ -1,0 +1,296 @@
+/*desktop*/
+@media (min-width: 1024px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+        "cabeza cabeza cabeza"
+        "tituloyfondo tituloyfondo tituloyfondo"
+        "pizzas happyhour tragos"
+        "pie pie pie" ;
+         grid-template-rows: 1fr 4fr 4fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr;
+    }
+    }
+    
+    /*tablet*/
+    @media (min-width: 481px) and (max-width: 1023px) {
+    #grid {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "pizzas"
+        "happyhour"
+        "tragos"
+        "pie" ;
+         grid-template-rows: 1fr 4fr 4fr 1fr;
+         grid-template-columns: 1fr;
+    }
+    }
+    /*mobile*/
+    @media (max-width: 480px) {
+    
+    
+       header h1 {
+        text-align: center;
+       }
+        #grid {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "pizzas"
+        "happyhour"
+        "tragos"
+        "pie";
+         grid-template-rows: 1fr 4fr 4fr 1fr;
+         grid-template-columns: 1fr;
+    }
+    }
+    
+    header {
+        grid-area: cabeza;
+        
+    }
+    nav {
+        grid-area: tituloyfondo;
+      margin-bottom: 20px;
+    }
+    #pizzas {
+        grid-area: pizzas;
+        margin-bottom: 20px;
+    }
+    #happyhour {
+        grid-area: happyhour;
+        margin-bottom: 20px;
+    
+    }
+    #tragos {
+        grid-area: tragos;
+        margin-bottom: 20px;
+    
+    }
+    footer {
+        grid-area: pie;
+        background-color:  #4d391d;
+        background-image: linear-gradient(#9c886d, #4d391d);
+
+    }
+   
+/*pizzas*/
+
+
+/*desktop*/
+@media (min-width: 1024px) {
+#gridpizzas {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "tituloyfondo tituloyfondo tituloyfondo"
+    "napolitana muzzarella newyork"
+    "fugazzeta especial pepperoni"
+    "pie pie pie";
+
+     grid-template-rows: 1fr 1fr 4fr 4fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+#gridpizzas {
+    display: grid;
+    grid-template-areas:
+    "cabeza cabeza"
+    "tituloyfondo tituloyfondo"
+    "napolitana muzzarella"
+    "newyork fugazzeta"
+    "especial pepperoni"
+    "pie pie";
+
+     grid-template-rows: 1fr 1fr 4fr 4fr 1fr;
+     grid-template-columns: 1fr 1fr;
+}
+}
+
+/*mobile*/
+@media (max-width: 480px) {
+
+#gridpizzas {
+    display: grid;
+    grid-template-areas:
+    "cabeza"
+    "tituloyfondo"
+    "napolitana"
+    "muzzarella"
+    "newyork"
+    "fugazzeta"
+    "especial"
+    "pepperoni"
+    "pie";
+
+     grid-template-rows: 1fr 1fr 4fr 4fr 1fr;
+     grid-template-columns: 1fr;
+}
+}
+#napolitana {
+    grid-area: napolitana;
+   margin-bottom: 20px;
+}
+#muzzarella{
+    grid-area: muzzarella;
+    margin-bottom: 20px;
+
+}
+
+#newyork {
+    grid-area: newyork;
+    margin-bottom: 20px;
+
+}
+
+#fugazzeta {
+    grid-area: fugazzeta;
+    margin-bottom: 20px;
+
+}
+
+#especial {
+    grid-area: especial;
+    margin-bottom: 20px;
+
+}
+
+#pepperoni {
+    grid-area: pepperoni;
+    margin-bottom: 20px;
+
+}
+
+
+#principal {
+    grid-area: principal;
+    margin: 40px;
+}
+.border {
+    border-color: black;
+}
+/*desktop*/
+@media (min-width: 1024px) {
+#gridhappy {
+    display: grid;
+    grid-template-areas:
+    "cabeza"
+    "tituloyfondo"
+    "principal"
+    "pie" ;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
+}
+}
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+
+    #gridhappy {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "principal"
+        "pie" ;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-columns: 1fr;
+
+}
+}
+/*mobile*/
+@media (max-width: 480px) {
+
+    #gridhappy {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "principal"
+        "pie" ;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-columns: 1fr;
+
+}
+}
+/*desktop*/
+@media (min-width: 1024px) {
+#gridcontacto {
+    display: grid;
+    grid-template-areas:
+    "cabeza"
+    "tituloyfondo"
+    "comollegar"
+    "trabaja"
+    "pie";
+    grid-template-rows: 1fr 2fr 2fr 2fr 1fr ;
+    grid-template-columns: 1fr;
+}
+}
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+    #gridcontacto {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "comollegar"
+        "trabaja"
+        "pie";
+        grid-template-rows: 1fr 2fr 2fr 2fr 1fr ;
+        grid-template-columns: 1fr;
+    }
+    }
+
+/*mobile*/
+@media (max-width: 480px) {
+      #gridcontacto {
+        display: grid;
+        grid-template-areas:
+        "cabeza"
+        "tituloyfondo"
+        "comollegar"
+        "trabaja"
+        "pie";
+        grid-template-rows: 1fr 2fr 2fr 2fr 1fr ;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+#comollegar {
+    grid-area: comollegar;
+}
+
+#trabaja {
+    grid-area: trabaja;
+}
+
+#gridnosotros {
+display: grid;
+grid-template-areas: 
+"cabeza"
+"tituloyfondo"
+"principal"
+"pie" ;
+grid-template-rows: 1fr 2fr 1fr;
+grid-template-columns: 1fr;
+}
+
+#gridtragos {
+    display: grid;
+    grid-template-areas:
+    "cabeza"
+    "tituloyfondo"
+    "principal"
+    "pie";
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
+}

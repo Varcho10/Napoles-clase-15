@@ -1,0 +1,7 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Napoles. Las mejores pizzas, al mejor estilo napolitano"
+Palabras clave: mediante la etiqueta meta name keywords: "NAPOLES, PIZZERIA, BUENOS AIRES"
+
+
